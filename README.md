@@ -7,5 +7,13 @@ Somethings I have left to do/ would like to do.<br>
 * Make some variables global
 * GUI editing
 
-Screenshots<br>
-<img src="" >
+# Screenshots
+___
+Home<br>
+<img src="MyManga/ScreenShot/Home.png" height="300"><br>
+Add<br>
+<img src="MyManga/ScreenShot/Add.png" height="300"><br>
+Update<br>
+<img src="MyManga/ScreenShot/Update.png" height="300"><br>
+Search<br>
+<img src="MyManga/ScreenShot/Search.png" height="300">
