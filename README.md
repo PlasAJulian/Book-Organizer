@@ -4,7 +4,6 @@ Originally used for my manga collection, Its displays all the books in a Microso
 Somethings I have left to do/ would like to do.<br>
 * prevent duplicating
 * Code condensing
-* Make some variables global
 * GUI editing
 
 # Screenshots
