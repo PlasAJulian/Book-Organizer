@@ -10,3 +10,15 @@ C:\Users\GhostBit\source\repos\MyManga\MyManga\obj\Debug\MyManga.csproj.CoreComp
 C:\Users\GhostBit\source\repos\MyManga\MyManga\obj\Debug\MyManga.exe
 C:\Users\GhostBit\source\repos\MyManga\MyManga\obj\Debug\MyManga.pdb
 C:\Users\GhostBit\source\repos\MyManga\MyManga\obj\Debug\MyManga.csprojAssemblyReference.cache
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\bin\Debug\MyManga.exe.config
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\bin\Debug\MyManga.exe
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\bin\Debug\MyManga.pdb
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.csprojAssemblyReference.cache
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.Add_Manga.resources
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.Form1.resources
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.MangaInfo.resources
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.Properties.Resources.resources
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.csproj.GenerateResource.cache
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.csproj.CoreCompileInputs.cache
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.exe
+C:\Users\GhostBit\Desktop\git\Book-Organizer\MyManga\obj\Debug\MyManga.pdb

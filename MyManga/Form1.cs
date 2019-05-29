@@ -33,7 +33,8 @@ namespace MyManga
         {
             load.getAllManga();
             totalLabel.Text = load.arrL.count.ToString();
-            fillTable(load.arrL.arrlist);   
+            fillTable(load.arrL.arrlist);
+            colCB.SelectedIndex = 0;
         }
         //fills table
         public void fillTable(ArrayList list)

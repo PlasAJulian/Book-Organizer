@@ -48,6 +48,7 @@
             // mNameLabel
             // 
             this.mNameLabel.AutoSize = true;
+            this.mNameLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.mNameLabel.Location = new System.Drawing.Point(28, 36);
             this.mNameLabel.Name = "mNameLabel";
             this.mNameLabel.Size = new System.Drawing.Size(74, 13);
@@ -57,6 +58,7 @@
             // mAuthorLabel
             // 
             this.mAuthorLabel.AutoSize = true;
+            this.mAuthorLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.mAuthorLabel.Location = new System.Drawing.Point(25, 70);
             this.mAuthorLabel.Name = "mAuthorLabel";
             this.mAuthorLabel.Size = new System.Drawing.Size(77, 13);
@@ -66,6 +68,7 @@
             // mGenresLabel
             // 
             this.mGenresLabel.AutoSize = true;
+            this.mGenresLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.mGenresLabel.Location = new System.Drawing.Point(26, 135);
             this.mGenresLabel.Name = "mGenresLabel";
             this.mGenresLabel.Size = new System.Drawing.Size(77, 13);
@@ -111,6 +114,7 @@
             // mIDLlabel
             // 
             this.mIDLlabel.AutoSize = true;
+            this.mIDLlabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.mIDLlabel.Location = new System.Drawing.Point(64, 9);
             this.mIDLlabel.Name = "mIDLlabel";
             this.mIDLlabel.Size = new System.Drawing.Size(21, 13);
@@ -120,6 +124,7 @@
             // idL
             // 
             this.idL.AutoSize = true;
+            this.idL.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.idL.Location = new System.Drawing.Point(102, 9);
             this.idL.Name = "idL";
             this.idL.Size = new System.Drawing.Size(63, 13);
@@ -182,6 +187,7 @@
             // mangaCLabel
             // 
             this.mangaCLabel.AutoSize = true;
+            this.mangaCLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.mangaCLabel.Location = new System.Drawing.Point(221, 33);
             this.mangaCLabel.Name = "mangaCLabel";
             this.mangaCLabel.Size = new System.Drawing.Size(74, 13);
@@ -204,6 +210,7 @@
             // dOrPLabel
             // 
             this.dOrPLabel.AutoSize = true;
+            this.dOrPLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.dOrPLabel.Location = new System.Drawing.Point(61, 109);
             this.dOrPLabel.Name = "dOrPLabel";
             this.dOrPLabel.Size = new System.Drawing.Size(93, 13);
@@ -214,6 +221,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(92)))), ((int)(((byte)(125)))));
             this.ClientSize = new System.Drawing.Size(419, 346);
             this.Controls.Add(this.typeCB);
             this.Controls.Add(this.dOrPLabel);
@@ -228,7 +236,10 @@
             this.Controls.Add(this.mGenresLabel);
             this.Controls.Add(this.mAuthorLabel);
             this.Controls.Add(this.mNameLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "MangaInfo";
+            this.ShowIcon = false;
             this.Text = "MangaInfo";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MangaInfo_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.newMangaPB)).EndInit();

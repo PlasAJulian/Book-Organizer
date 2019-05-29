@@ -46,36 +46,44 @@
             // mNameLabel
             // 
             this.mNameLabel.AutoSize = true;
-            this.mNameLabel.Location = new System.Drawing.Point(12, 16);
+            this.mNameLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.mNameLabel.Location = new System.Drawing.Point(16, 20);
+            this.mNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mNameLabel.Name = "mNameLabel";
-            this.mNameLabel.Size = new System.Drawing.Size(74, 13);
+            this.mNameLabel.Size = new System.Drawing.Size(93, 16);
             this.mNameLabel.TabIndex = 0;
             this.mNameLabel.Text = "Manga Name:";
             // 
             // mAuthorLabel
             // 
             this.mAuthorLabel.AutoSize = true;
-            this.mAuthorLabel.Location = new System.Drawing.Point(210, 16);
+            this.mAuthorLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.mAuthorLabel.Location = new System.Drawing.Point(280, 20);
+            this.mAuthorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mAuthorLabel.Name = "mAuthorLabel";
-            this.mAuthorLabel.Size = new System.Drawing.Size(77, 13);
+            this.mAuthorLabel.Size = new System.Drawing.Size(94, 16);
             this.mAuthorLabel.TabIndex = 1;
             this.mAuthorLabel.Text = "Manga Author:";
             // 
             // mGenresLabel
             // 
             this.mGenresLabel.AutoSize = true;
-            this.mGenresLabel.Location = new System.Drawing.Point(9, 130);
+            this.mGenresLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.mGenresLabel.Location = new System.Drawing.Point(12, 160);
+            this.mGenresLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mGenresLabel.Name = "mGenresLabel";
-            this.mGenresLabel.Size = new System.Drawing.Size(77, 13);
+            this.mGenresLabel.Size = new System.Drawing.Size(97, 16);
             this.mGenresLabel.TabIndex = 2;
             this.mGenresLabel.Text = "Manga Genres";
             // 
             // dOrPLabel
             // 
             this.dOrPLabel.AutoSize = true;
-            this.dOrPLabel.Location = new System.Drawing.Point(12, 73);
+            this.dOrPLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dOrPLabel.Location = new System.Drawing.Point(16, 90);
+            this.dOrPLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dOrPLabel.Name = "dOrPLabel";
-            this.dOrPLabel.Size = new System.Drawing.Size(93, 13);
+            this.dOrPLabel.Size = new System.Drawing.Size(118, 16);
             this.dOrPLabel.TabIndex = 3;
             this.dOrPLabel.Text = "Digital or Physical:";
             // 
@@ -86,31 +94,35 @@
             this.typeCB.Items.AddRange(new object[] {
             "Digital",
             "Physical"});
-            this.typeCB.Location = new System.Drawing.Point(111, 73);
+            this.typeCB.Location = new System.Drawing.Point(148, 90);
+            this.typeCB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.typeCB.MaxDropDownItems = 2;
             this.typeCB.Name = "typeCB";
-            this.typeCB.Size = new System.Drawing.Size(78, 21);
+            this.typeCB.Size = new System.Drawing.Size(103, 24);
             this.typeCB.TabIndex = 4;
             // 
             // mNameTB
             // 
-            this.mNameTB.Location = new System.Drawing.Point(89, 16);
+            this.mNameTB.Location = new System.Drawing.Point(119, 20);
+            this.mNameTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mNameTB.Name = "mNameTB";
-            this.mNameTB.Size = new System.Drawing.Size(100, 20);
+            this.mNameTB.Size = new System.Drawing.Size(132, 22);
             this.mNameTB.TabIndex = 5;
             // 
             // mAuthorTB
             // 
-            this.mAuthorTB.Location = new System.Drawing.Point(290, 16);
+            this.mAuthorTB.Location = new System.Drawing.Point(387, 20);
+            this.mAuthorTB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mAuthorTB.Name = "mAuthorTB";
-            this.mAuthorTB.Size = new System.Drawing.Size(100, 20);
+            this.mAuthorTB.Size = new System.Drawing.Size(132, 22);
             this.mAuthorTB.TabIndex = 6;
             // 
             // addBtn
             // 
-            this.addBtn.Location = new System.Drawing.Point(142, 309);
+            this.addBtn.Location = new System.Drawing.Point(189, 380);
+            this.addBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addBtn.Name = "addBtn";
-            this.addBtn.Size = new System.Drawing.Size(94, 28);
+            this.addBtn.Size = new System.Drawing.Size(125, 34);
             this.addBtn.TabIndex = 8;
             this.addBtn.Text = "Add Manga";
             this.addBtn.UseVisualStyleBackColor = true;
@@ -119,9 +131,10 @@
             // newMangaPB
             // 
             this.newMangaPB.Image = ((System.Drawing.Image)(resources.GetObject("newMangaPB.Image")));
-            this.newMangaPB.Location = new System.Drawing.Point(299, 43);
+            this.newMangaPB.Location = new System.Drawing.Point(399, 53);
+            this.newMangaPB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.newMangaPB.Name = "newMangaPB";
-            this.newMangaPB.Size = new System.Drawing.Size(91, 100);
+            this.newMangaPB.Size = new System.Drawing.Size(121, 123);
             this.newMangaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.newMangaPB.TabIndex = 9;
             this.newMangaPB.TabStop = false;
@@ -174,26 +187,30 @@
             "Vampire",
             "Yaoi",
             "Yuri"});
-            this.mangaGenresCLB.Location = new System.Drawing.Point(12, 149);
+            this.mangaGenresCLB.Location = new System.Drawing.Point(16, 183);
+            this.mangaGenresCLB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mangaGenresCLB.MultiColumn = true;
             this.mangaGenresCLB.Name = "mangaGenresCLB";
-            this.mangaGenresCLB.Size = new System.Drawing.Size(378, 154);
+            this.mangaGenresCLB.Size = new System.Drawing.Size(503, 174);
             this.mangaGenresCLB.TabIndex = 10;
             // 
             // mangaCLabel
             // 
             this.mangaCLabel.AutoSize = true;
-            this.mangaCLabel.Location = new System.Drawing.Point(219, 76);
+            this.mangaCLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.mangaCLabel.Location = new System.Drawing.Point(292, 94);
+            this.mangaCLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mangaCLabel.Name = "mangaCLabel";
-            this.mangaCLabel.Size = new System.Drawing.Size(74, 13);
+            this.mangaCLabel.Size = new System.Drawing.Size(92, 16);
             this.mangaCLabel.TabIndex = 11;
             this.mangaCLabel.Text = "Manga Cover:";
             // 
             // Add_Manga
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 346);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(92)))), ((int)(((byte)(125)))));
+            this.ClientSize = new System.Drawing.Size(559, 426);
             this.Controls.Add(this.mangaCLabel);
             this.Controls.Add(this.mangaGenresCLB);
             this.Controls.Add(this.newMangaPB);
@@ -205,7 +222,12 @@
             this.Controls.Add(this.mGenresLabel);
             this.Controls.Add(this.mAuthorLabel);
             this.Controls.Add(this.mNameLabel);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
             this.Name = "Add_Manga";
+            this.ShowIcon = false;
             this.Text = "Add_Manga";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Add_Manga_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.newMangaPB)).EndInit();
