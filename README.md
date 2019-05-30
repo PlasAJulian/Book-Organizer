@@ -9,10 +9,8 @@ Somethings I have left to do/ would like to do.<br>
 # Screenshots
 ___
 Home<br>
-<img src="MyManga/ScreenShot/Home.png" height="300"><br>
+<img src="MyManga/ScreenShot/newHome.png" height="400"><br>
 Add<br>
-<img src="MyManga/ScreenShot/Add.png" height="300"><br>
+<img src="MyManga/ScreenShot/newAdd.png" height="400"><br>
 Update<br>
-<img src="MyManga/ScreenShot/Update.png" height="300"><br>
-Search<br>
-<img src="MyManga/ScreenShot/Search.png" height="300">
+<img src="MyManga/ScreenShot/newUpdate.png" height="400"><br>
